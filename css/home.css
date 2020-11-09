@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+section{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+header nav {  
+    width: 95%;
+    margin: auto;
+    overflow: auto;
+}
+header nav div{
+    width: 25%;
+    margin: auto;
+    float: left;
+}
+header nav ul{
+    list-style-type: none;
+    width: 68%;
+    float: right;
+}
+header nav ul li {
+    float: left;
+    margin: 15px 10px;
+    padding: 10px 20px;
+    color:rgb(244, 137, 41);
+}
+header nav ul li a{
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    position: relative;
+}
+section.banner{
+    background-image: url("../img/banner home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: auto;
+    padding-bottom: 750px;
+    margin-bottom: 50px;
+}
+section div.about{
+    width: 70%;
+    margin: auto;
+    overflow: auto;
+    position: relative;
+}
+section div.about figure{
+    width: 22%;
+    float: left;
+    margin-top: 80px;
+    margin-right: 35px;
+    margin-bottom: 60px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(198, 198, 198);
+}
+section div.about figure:last-child{
+    margin-right: 0px;
+}
+section div.about figure img{
+    width: 100%;
+    max-height: 190px;
+}
+section div.about figure figcaption h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgb(27, 27, 27);
+    margin-bottom: 20px;
+}
+section div.about figure figcaption p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+section.form{
+    width: 70%;
+    margin: auto;
+    
+}
+section.form form{
+    width: 70%;
+    float:left;
+}
+section.form form div label{
+    color: rgb(45, 44, 50);
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section.form form input[type=text],[type=email], textarea{
+    border: solid 1px rgb(216, 216, 216) ;
+    background-color: rgb(216, 216, 216);
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+section.form form div input[placeholder=NAME]{
+    width: 100%;
+}
+section.form form div div input[placeholder=SUBJECT],[placeholder=EMAIL]{
+    width: 100%;
+}
+
+section.form form div div.email{
+    float: left;
+}
+
+section.form form div.message{
+    position: relative;
+}
+section.form form textarea{
+    width: 100%;
+    resize: none;
+    height: 190px;
+}
